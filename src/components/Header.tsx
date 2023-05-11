@@ -3,8 +3,8 @@ import { Button } from './Button'
 
 export function Header() {
     return (
-        <header className='flex items-center justify-between h-20 mt-16 w-[1440px]'>
-            <div>
+        <header className='flex items-center justify-between desktop:px-20 mobile:px-5 h-20 mt-16 w-full bg-red-300'>
+            <div className='mobile:w-20 desktop:w-full'>
                 <img src={ logo } alt="" />
             </div>
             <Button

@@ -21,7 +21,7 @@ export default {
     screens: {
       'desktop': '1440px',
       'tablet': '760px',
-      'mobile': '375px',
+      'mobile': '320px',
     },
   },
   plugins: [],

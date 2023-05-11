@@ -3,7 +3,7 @@ import { Button } from './Button'
 
 export function Header() {
     return (
-        <header className='flex items-center justify-between h-20 w-[1440px]'>
+        <header className='flex items-center justify-between h-20 mt-16 w-[1440px]'>
             <div>
                 <img src={ logo } alt="" />
             </div>
